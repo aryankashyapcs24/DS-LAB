@@ -1,4 +1,4 @@
-//Stack Operations
+
 #include <stdio.h>
 
 #define SIZE 3
