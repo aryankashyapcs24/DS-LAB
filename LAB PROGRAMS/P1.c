@@ -64,3 +64,36 @@ int push()
 
     return 0;
 }
+
+int pop()
+{
+    if (top == -1)
+    {
+        printf("\nStack Underflow");
+        return 0;
+    }
+    else
+    {
+        printf("\n%d popped", arr[top]);
+        top = top - 1;
+    }
+
+    return 0;
+}
+
+void display()
+{
+    if (top == -1)
+    {
+        printf("\nStack Underflow");
+        return;
+    }
+
+    for (int i = top; i >= 0; i--)
+    {
+        printf("%d ", arr[i]);
+    }
+
+    printf("\n");
+}
+
