@@ -1,9 +1,11 @@
+//Stack Operations
 #include <stdio.h>
 
 #define SIZE 3
 
 int top = -1;
 int arr[SIZE];
+
 
 int push();
 int pop();
